@@ -1,0 +1,78 @@
+.create-title{
+    font-size: 3rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 1rem;
+}
+
+.label{
+    font-size: 1.5rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 1rem;
+}
+.imput-field{
+    width: 20rem;
+    height: 3rem;
+}
+.input-form{
+    display: flex;
+    flex-direction: row;
+}
+.imput-field{
+    border: none;
+    border-radius: 5px;
+    padding: 0.9rem;
+    color: white;
+    font-size: 1rem;
+    background-color: rgb(41, 38, 38);
+}
+.row{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.add-btn{
+    /* padding: 2rem; */
+    width: 7rem;
+    height: 3rem;
+    text-align: center;
+    margin-top: 1rem;
+    background-color: rgb(255, 0, 43);
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 1rem;
+    text-decoration: none;
+    cursor: pointer;
+    -webkit-user-select: none; /* Safari */
+  -ms-user-select: none; /* IE 10 and IE 11 */
+  user-select: none; /* Standard syntax */
+}
+.home-btn {
+    width: 7rem;
+    height: 3rem;
+    text-align: center;
+    margin-top: 1rem;
+    background-color: rgb(255, 0, 43);
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 1rem;
+    text-decoration: none;
+    cursor: pointer;
+    -webkit-user-select: none; /* Safari */
+  -ms-user-select: none; /* IE 10 and IE 11 */
+  user-select: none; /* Standard syntax */
+}
+.home-btn:hover{
+    background: rgba(207, 19, 91, 0.549);
+    transition: .5s;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.add-btn:hover{
+    background: rgba(207, 19, 91, 0.549);
+    transition: .5s;
+}
